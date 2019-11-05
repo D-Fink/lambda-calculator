@@ -5,9 +5,12 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    margin: 0 auto;
 }
 .display {
+    margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +22,8 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .makeThemFlex{
+      display:flex;
   }

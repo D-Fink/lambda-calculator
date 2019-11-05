@@ -1,0 +1,68 @@
+.divNumbers{
+    width: 80%;
+    display: flex;
+    font-size: 60px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.number{
+    text-align: center;
+    justify-content: space-around;
+    width: 90px;
+    padding: 2%;
+    margin: 2%;
+    background: rgb(31, 31, 179);
+    border-radius: 50%;
+    border: 1px black solid;
+}
+
+.zero{
+    text-align: center;
+    width: 57%;
+    padding: 2%;
+    margin: 2%;
+    background: rgb(31, 31, 179);
+    border-radius: 60px;
+    border: 1px black solid;
+}
+
+.divSpecials{
+    display: flex;
+    font-size: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.specials{
+    justify-content:space-around;
+    align-content: center;
+    width: 90px;
+    background: rgb(107, 184, 209);
+    border-radius: 50%;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    border: 1px black solid;
+}
+
+.divOperators{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-size: 60px;
+    width: 10%;
+    height: 100%;
+    
+}
+
+.operators{
+    align-content: center;
+    width: 90px;
+    background: rgb(107, 184, 209);
+    border-radius: 50%;
+    text-align: center;
+    padding: 4%;
+    margin: 2%;
+    border: 1px black solid;
+}
